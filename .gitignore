@@ -3,36 +3,36 @@
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## User settings
-xcuserdata/
+MarvelHeros/xcuserdata/
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
-*.xcscmblueprint
-*.xccheckout
+MarvelHeros/*.xcscmblueprint
+MarvelHeros/*.xccheckout
 
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
-build/
-DerivedData/
-*.moved-aside
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
+MarvelHeros/build/
+MarvelHeros/DerivedData/
+MarvelHeros/*.moved-aside
+MarvelHeros/*.pbxuser
+MarvelHeros/!default.pbxuser
+MarvelHeros/*.mode1v3
+MarvelHeros/!default.mode1v3
+MarvelHeros/*.mode2v3
+MarvelHeros/!default.mode2v3
+MarvelHeros/*.perspectivev3
+MarvelHeros/!default.perspectivev3
 
 ## Obj-C/Swift specific
-*.hmap
+MarvelHeros/*.hmap
 
 ## App packaging
-*.ipa
-*.dSYM.zip
-*.dSYM
+MarvelHeros/*.ipa
+MarvelHeros/*.dSYM.zip
+MarvelHeros/*.dSYM
 
 ## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
+MarvelHeros/timeline.xctimeline
+MarvelHeros/playground.xcworkspace
 
 # Swift Package Manager
 #
@@ -46,7 +46,7 @@ playground.xcworkspace
 # hence it is not needed unless you have added a package configuration file to your project
 # .swiftpm
 
-.build/
+MarvelHeros/.build/
 
 # CocoaPods
 #
@@ -64,11 +64,11 @@ playground.xcworkspace
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 # Carthage/Checkouts
 
-Carthage/Build/
+MarvelHeros/Carthage/Build/
 
 # Accio dependency management
-Dependencies/
-.accio/
+MarvelHeros/Dependencies/
+MarvelHeros/.accio/
 
 # fastlane
 #
@@ -77,14 +77,14 @@ Dependencies/
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/#source-control
 
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
+MarvelHeros/fastlane/report.xml
+MarvelHeros/fastlane/Preview.html
+MarvelHeros/fastlane/screenshots/**/*.png
+MarvelHeros/fastlane/test_output
 
 # Code Injection
 #
 # After new code Injection tools there's a generated folder /iOSInjectionProject
 # https://github.com/johnno1962/injectionforxcode
 
-iOSInjectionProject/
+MarvelHeros/iOSInjectionProject/
