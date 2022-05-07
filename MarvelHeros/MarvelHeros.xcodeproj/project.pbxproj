@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		F34D38962825EFCD007D1EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38952825EFCD007D1EEA /* AppDelegate.swift */; };
 		F34D38982825EFCD007D1EEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38972825EFCD007D1EEA /* SceneDelegate.swift */; };
-		F34D389A2825EFCD007D1EEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38992825EFCD007D1EEA /* HomeViewController.swift */; };
+		F34D389A2825EFCD007D1EEA /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38992825EFCD007D1EEA /* HomeListViewController.swift */; };
 		F34D389D2825EFCD007D1EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34D389B2825EFCD007D1EEA /* Main.storyboard */; };
 		F34D389F2825EFCF007D1EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34D389E2825EFCF007D1EEA /* Assets.xcassets */; };
 		F34D38A22825EFCF007D1EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34D38A02825EFCF007D1EEA /* LaunchScreen.storyboard */; };
 		F34D38AD2825EFCF007D1EEA /* MarvelHerosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38AC2825EFCF007D1EEA /* MarvelHerosTests.swift */; };
 		F34D38B72825EFCF007D1EEA /* MarvelHerosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38B62825EFCF007D1EEA /* MarvelHerosUITests.swift */; };
 		F34D38B92825EFCF007D1EEA /* MarvelHerosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38B82825EFCF007D1EEA /* MarvelHerosUITestsLaunchTests.swift */; };
+		F34D38C92825FA49007D1EEA /* HomeListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38C82825FA49007D1EEA /* HomeListFactory.swift */; };
+		F34D38CB2825FA68007D1EEA /* HomeListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38CA2825FA68007D1EEA /* HomeListWireframe.swift */; };
+		F34D38CD2825FA7F007D1EEA /* HomeListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38CC2825FA7F007D1EEA /* HomeListPresenter.swift */; };
+		F34D38CF2825FA8D007D1EEA /* HomeListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38CE2825FA8D007D1EEA /* HomeListInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		F34D38922825EFCD007D1EEA /* MarvelHeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelHeros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34D38952825EFCD007D1EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F34D38972825EFCD007D1EEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F34D38992825EFCD007D1EEA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F34D38992825EFCD007D1EEA /* HomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewController.swift; sourceTree = "<group>"; };
 		F34D389C2825EFCD007D1EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F34D389E2825EFCF007D1EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F34D38A12825EFCF007D1EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		F34D38B22825EFCF007D1EEA /* MarvelHerosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelHerosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34D38B62825EFCF007D1EEA /* MarvelHerosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHerosUITests.swift; sourceTree = "<group>"; };
 		F34D38B82825EFCF007D1EEA /* MarvelHerosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHerosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F34D38C82825FA49007D1EEA /* HomeListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListFactory.swift; sourceTree = "<group>"; };
+		F34D38CA2825FA68007D1EEA /* HomeListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListWireframe.swift; sourceTree = "<group>"; };
+		F34D38CC2825FA7F007D1EEA /* HomeListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListPresenter.swift; sourceTree = "<group>"; };
+		F34D38CE2825FA8D007D1EEA /* HomeListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,9 @@
 		F34D38942825EFCD007D1EEA /* MarvelHeros */ = {
 			isa = PBXGroup;
 			children = (
+				F34D38C72825F9DE007D1EEA /* HomeList */,
 				F34D38952825EFCD007D1EEA /* AppDelegate.swift */,
 				F34D38972825EFCD007D1EEA /* SceneDelegate.swift */,
-				F34D38992825EFCD007D1EEA /* HomeViewController.swift */,
 				F34D389B2825EFCD007D1EEA /* Main.storyboard */,
 				F34D389E2825EFCF007D1EEA /* Assets.xcassets */,
 				F34D38A02825EFCF007D1EEA /* LaunchScreen.storyboard */,
@@ -125,6 +133,18 @@
 				F34D38B82825EFCF007D1EEA /* MarvelHerosUITestsLaunchTests.swift */,
 			);
 			path = MarvelHerosUITests;
+			sourceTree = "<group>";
+		};
+		F34D38C72825F9DE007D1EEA /* HomeList */ = {
+			isa = PBXGroup;
+			children = (
+				F34D38992825EFCD007D1EEA /* HomeListViewController.swift */,
+				F34D38C82825FA49007D1EEA /* HomeListFactory.swift */,
+				F34D38CA2825FA68007D1EEA /* HomeListWireframe.swift */,
+				F34D38CC2825FA7F007D1EEA /* HomeListPresenter.swift */,
+				F34D38CE2825FA8D007D1EEA /* HomeListInteractor.swift */,
+			);
+			path = HomeList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F34D389A2825EFCD007D1EEA /* HomeViewController.swift in Sources */,
+				F34D389A2825EFCD007D1EEA /* HomeListViewController.swift in Sources */,
+				F34D38C92825FA49007D1EEA /* HomeListFactory.swift in Sources */,
 				F34D38962825EFCD007D1EEA /* AppDelegate.swift in Sources */,
+				F34D38CF2825FA8D007D1EEA /* HomeListInteractor.swift in Sources */,
+				F34D38CD2825FA7F007D1EEA /* HomeListPresenter.swift in Sources */,
+				F34D38CB2825FA68007D1EEA /* HomeListWireframe.swift in Sources */,
 				F34D38982825EFCD007D1EEA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
