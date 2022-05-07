@@ -6,29 +6,29 @@
 MarvelHeros/xcuserdata/
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
-MarvelHeros/*.xcscmblueprint
-MarvelHeros/*.xccheckout
+*.xcscmblueprint
+*.xccheckout
 
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
 MarvelHeros/build/
 MarvelHeros/DerivedData/
-MarvelHeros/*.moved-aside
-MarvelHeros/*.pbxuser
-MarvelHeros/!default.pbxuser
-MarvelHeros/*.mode1v3
-MarvelHeros/!default.mode1v3
-MarvelHeros/*.mode2v3
-MarvelHeros/!default.mode2v3
-MarvelHeros/*.perspectivev3
-MarvelHeros/!default.perspectivev3
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
 
 ## Obj-C/Swift specific
-MarvelHeros/*.hmap
+*.hmap
 
 ## App packaging
-MarvelHeros/*.ipa
-MarvelHeros/*.dSYM.zip
-MarvelHeros/*.dSYM
+*.ipa
+*.dSYM.zip
+*.dSYM
 
 ## Playgrounds
 MarvelHeros/timeline.xctimeline
