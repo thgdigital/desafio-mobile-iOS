@@ -6,7 +6,36 @@
 //
 
 import Foundation
+import UIKit
 
-class HomeListPresenter {
+protocol HomeListPresenting: AnyObject {
+    func loadScreen()
+}
+
+protocol HomeDisplaying: AnyObject {
+    
+}
+
+class HomeListPresenter: HomeListPresenting {
+    let router: HomeListWireframe
+    let interactor: HomeListInteracting
+    weak var viewController: HomeDisplaying?
+    
+    init(interactor: HomeListInteracting, router: HomeListWireframe) {
+        self.router = router
+        self.interactor = interactor
+    }
+    
+   
+}
+
+extension HomeListPresenter {
+    
+    func loadScreen() {
+        interactor.loadService()
+    }
+}
+
+extension HomeListPresenter: HomeListInteractorOutput {
     
 }

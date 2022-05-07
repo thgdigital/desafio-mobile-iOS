@@ -7,6 +7,18 @@
 
 import Foundation
 
-class HomeListInteractor {
+protocol HomeListInteracting: AnyObject {
+    func loadService()
+}
+
+protocol HomeListInteractorOutput: AnyObject {
     
+}
+
+class HomeListInteractor: HomeListInteracting {
+    weak var output:HomeListInteractorOutput?
+    
+    func loadService() {
+        print("carregar os dados")
+    }
 }

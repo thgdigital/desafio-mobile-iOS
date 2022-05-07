@@ -10,6 +10,6 @@ import UIKit
 class HomeListWireframe {
     
     func showView() -> UIViewController {
-        fatalError()
+        HomeListFactory.make(wireframe: self)
     }
 }
