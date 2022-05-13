@@ -8,7 +8,6 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    let indentifier: String = "cellId"
     
     var sections = [SectionsProtocol]() {
         didSet {
@@ -22,7 +21,6 @@ class HomeViewController: UIViewController {
         collection.translatesAutoresizingMaskIntoConstraints = false
         collection.dataSource = self
         collection.delegate = self
-        collection.register(UICollectionViewCell.self, forCellWithReuseIdentifier: indentifier)
         return collection
     }()
     
@@ -94,7 +92,6 @@ extension HomeViewController: HomeDisplaying {
         self.sections = sections
     }
 }
-
 
 extension HomeViewController {
     

@@ -13,6 +13,7 @@
 		F31F0DA9282E06F0005D5415 /* SectionSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F0DA8282E06F0005D5415 /* SectionSlider.swift */; };
 		F31F0DAB282E076D005D5415 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F0DAA282E076D005D5415 /* SliderCell.swift */; };
 		F31F0DAE282E162B005D5415 /* ComicCharacterEntenty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F0DAD282E162B005D5415 /* ComicCharacterEntenty.swift */; };
+		F31F0DB0282E1AE8005D5415 /* SectionVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F0DAF282E1AE8005D5415 /* SectionVertical.swift */; };
 		F34D38962825EFCD007D1EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38952825EFCD007D1EEA /* AppDelegate.swift */; };
 		F34D38982825EFCD007D1EEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38972825EFCD007D1EEA /* SceneDelegate.swift */; };
 		F34D389A2825EFCD007D1EEA /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34D38992825EFCD007D1EEA /* HomeListViewController.swift */; };
@@ -66,6 +67,7 @@
 		F31F0DA8282E06F0005D5415 /* SectionSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionSlider.swift; sourceTree = "<group>"; };
 		F31F0DAA282E076D005D5415 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 		F31F0DAD282E162B005D5415 /* ComicCharacterEntenty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCharacterEntenty.swift; sourceTree = "<group>"; };
+		F31F0DAF282E1AE8005D5415 /* SectionVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionVertical.swift; sourceTree = "<group>"; };
 		F34D38922825EFCD007D1EEA /* MarvelHeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelHeros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34D38952825EFCD007D1EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F34D38972825EFCD007D1EEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				F31F0DA8282E06F0005D5415 /* SectionSlider.swift */,
+				F31F0DAF282E1AE8005D5415 /* SectionVertical.swift */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				F34D38962825EFCD007D1EEA /* AppDelegate.swift in Sources */,
 				F31F0DAB282E076D005D5415 /* SliderCell.swift in Sources */,
 				F34D38CF2825FA8D007D1EEA /* HomeListInteractor.swift in Sources */,
+				F31F0DB0282E1AE8005D5415 /* SectionVertical.swift in Sources */,
 				F34D38CD2825FA7F007D1EEA /* HomeListPresenter.swift in Sources */,
 				F34D39D02826067E007D1EEA /* DataContainer.swift in Sources */,
 				F34D39D828260734007D1EEA /* MarvelManager.swift in Sources */,
