@@ -13,10 +13,10 @@ protocol HomeListPresenting: AnyObject {
 }
 
 protocol HomeDisplaying: AnyObject {
-    
+    func reloadSections(sections: [SectionsProtocol])
 }
 
-class HomeListPresenter: HomeListPresenting {
+class HomeListPresenter: HomeListPresenting {
     let router: HomeListWireframe
     let interactor: HomeListInteracting
     weak var viewController: HomeDisplaying?
@@ -25,8 +25,6 @@ class HomeListPresenter: HomeListPresenting {
         self.router = router
         self.interactor = interactor
     }
-    
-   
 }
 
 extension HomeListPresenter {
@@ -37,5 +35,13 @@ extension HomeListPresenter {
 }
 
 extension HomeListPresenter: HomeListInteractorOutput {
-    
+    func loadEntity(enteties: [ComicCharacterEntenty]) {
+        DispatchQueue.main.async {
+        var sections: [SectionsProtocol] = [SectionsProtocol]()
+        let itemsSlider = Array(enteties.prefix(upTo: 5))
+        let sectionSlider = SectionSlider(items: itemsSlider)
+        sections.append(sectionSlider)
+        self.viewController?.reloadSections(sections: sections)
+        }
+    }
 }

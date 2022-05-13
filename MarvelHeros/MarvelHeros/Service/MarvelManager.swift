@@ -7,7 +7,17 @@
 
 import Foundation
 
-class MarvelManager {
+
+protocol ManagerRequest: AnyObject {
+    
+    func getCharacters<T: APIRequest>(_ request: T, completionHandle: @escaping ResultCallback<DataContainer<T.Response>>)
+    
+    func image<T: APIRequest>(_ request: T, completionHandle: @escaping ResultCallback<DataContainer<T.Response>>)
+    
+    func getComics<T: APIRequest>(_ request: T, completionHandle: @escaping ResultCallback<DataContainer<T.Response>>)
+}
+
+class MarvelManager: ManagerRequest {
     
     let client: Client
     
